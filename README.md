@@ -1,7 +1,7 @@
 # List of problems
 
 <details>
-<summary><h1>2022</h1></summary>
+<summary><h2>2022</h2></summary>
 <br>
 
 - [x] Day 1
@@ -11,30 +11,30 @@
 - [x] Day 5
 - [x] Day 6
 - [x] Day 7
-- [] Day 8
-- [] Day 9
-- [] Day 10
-- [] Day 11
-- [] Day 12
-- [] Day 13
-- [] Day 14
-- [] Day 15
-- [] Day 16
-- [] Day 17
-- [] Day 18
-- [] Day 19
-- [] Day 20
-- [] Day 21
-- [] Day 22
-- [] Day 23
-- [] Day 24
-- [] Day 25
+- [ ] Day 8
+- [ ] Day 9
+- [ ] Day 10
+- [ ] Day 11
+- [ ] Day 12
+- [ ] Day 13
+- [ ] Day 14
+- [ ] Day 15
+- [ ] Day 16
+- [ ] Day 17
+- [ ] Day 18
+- [ ] Day 19
+- [ ] Day 20
+- [ ] Day 21
+- [ ] Day 22
+- [ ] Day 23
+- [ ] Day 24
+- [ ] Day 25
 
 </details>
 
 
 <details>
-<summary><h1>2021</h1></summary>
+<summary><h2>2021</h2></summary>
 <br>
 
 - [ ] Day 1
@@ -67,7 +67,7 @@
 
 
 <details>
-<summary><h1>2020</h1></summary>
+<summary><h2>2020</h2></summary>
 <br>
 
 - [ ] Day 1
@@ -99,7 +99,7 @@
 </details>
 
 <details>
-<summary><h1>2019</h1></summary>
+<summary><h2>2019</h2></summary>
 <br>
 
 - [ ] Day 1
@@ -131,7 +131,7 @@
 </details>
 
 <details>
-<summary><h1>2018</h1></summary>
+<summary><h2>2018</h2></summary>
 <br>
 
 - [ ] Day 1
@@ -163,7 +163,7 @@
 </details>
 
 <details>
-<summary><h1>2017</h1></summary>
+<summary><h2>2017</h2></summary>
 <br>
 
 - [ ] Day 1
@@ -195,7 +195,7 @@
 </details>
 
 <details>
-<summary><h1>2016</h1></summary>
+<summary><h2>2016</h2></summary>
 <br>
 
 - [ ] Day 1
@@ -227,7 +227,7 @@
 </details>
   
 <details>
-<summary><h1>2015</h1></summary>
+<summary><h2>2015</h2></summary>
 <br>
 
 - [x] Day 1
