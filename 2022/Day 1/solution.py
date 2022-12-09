@@ -1,5 +1,4 @@
-import os
-
+# https://adventofcode.com/2022
 #? Part 1
 # with open('data.txt', 'r') as file:
 #     listOfLines = file.readlines()
