@@ -23,24 +23,24 @@
 # print(total)
 
 #? Part 2
-with open("data.txt", 'r') as f:
-    lines = [line.strip() for line in f]
+# with open("data.txt", 'r') as f:
+#     lines = [line.strip() for line in f]
 
-for index, l in enumerate(lines):
-    lines[index] = l.split('x')
+# for index, l in enumerate(lines):
+#     lines[index] = l.split('x')
 
 
-total = 0
+# total = 0
 
-for box in lines:
-    box = [eval(i) for i in box]
-    box.sort()    
+# for box in lines:
+#     box = [eval(i) for i in box]
+#     box.sort()    
     
-    part1 = 2 * int(box[0]) + 2 * int(box[1])
-    part2 = int(box[0]) * int(box[1]) * int(box[2])
-    print(f"Part 1: {part1}, Part 2: {part2}")
-    print(f"This box needs{part1+part2}")
-    total += (part1 + part2)
+#     part1 = 2 * int(box[0]) + 2 * int(box[1])
+#     part2 = int(box[0]) * int(box[1]) * int(box[2])
+#     print(f"Part 1: {part1}, Part 2: {part2}")
+#     print(f"This box needs{part1+part2}")
+#     total += (part1 + part2)
     
 
-print(total)
+# print(total)
