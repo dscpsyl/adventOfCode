@@ -198,7 +198,7 @@
 <summary><h2>2016</h2></summary>
 <br>
 
-- [ ] Day 1
+- [x] Day 1
 - [ ] Day 2
 - [ ] Day 4
 - [ ] Day 5
