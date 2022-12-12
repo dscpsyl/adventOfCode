@@ -41,33 +41,33 @@
     
 # print(niceStrings)
 
+#? Part 2
+# with open("data.txt", 'r') as f:
+#     lines = [line.strip() for line in f]
+    
+# niceStrings = 0
 
-with open("data.txt", 'r') as f:
-    lines = [line.strip() for line in f]
-    
-niceStrings = 0
+# for l in lines:    
+#     bad = False
+#     # Condition 1
+#     # It contains a pair of any two letters that appears at least twice in the string without overlapping, like xyxy (xy) or aabcdefgaa (aa), but not like aaa (aa, but it overlaps).
+#     for i, c in enumerate(l):
+#         if i == len(l) - 1:
+#             bad = True
+#         if l[i:i+2] in l[i+2:]:
+#             break
 
-for l in lines:    
-    bad = False
-    # Condition 1
-    # It contains a pair of any two letters that appears at least twice in the string without overlapping, like xyxy (xy) or aabcdefgaa (aa), but not like aaa (aa, but it overlaps).
-    for i, c in enumerate(l):
-        if i == len(l) - 1:
-            bad = True
-        if l[i:i+2] in l[i+2:]:
-            break
-
-    if bad:
-        continue
+#     if bad:
+#         continue
     
-    # Condition 2
-    # It contains at least one letter which repeats with exactly one letter between them, like xyx, abcdefeghi (efe), or even aaa.
-    for i, c in enumerate(l):
-        if i == len(l) - 2:
-            break
-        if l[i] == l[i+2]:
-            niceStrings += 1
-            break
+#     # Condition 2
+#     # It contains at least one letter which repeats with exactly one letter between them, like xyx, abcdefeghi (efe), or even aaa.
+#     for i, c in enumerate(l):
+#         if i == len(l) - 2:
+#             break
+#         if l[i] == l[i+2]:
+#             niceStrings += 1
+#             break
     
     
-print(niceStrings)
+# print(niceStrings)
