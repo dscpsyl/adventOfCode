@@ -134,7 +134,7 @@
 <summary><h2>2018</h2></summary>
 <br>
 
-- [ ] Day 1
+- [x] Day 1
 - [ ] Day 2
 - [ ] Day 3
 - [ ] Day 4

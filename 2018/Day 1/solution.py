@@ -16,34 +16,23 @@ import sys
 # print(freq)
     
 #? Part 2
-with open("data.txt", 'r') as f:
-    lines = [line.strip() for line in f]
+# with open("data.txt", 'r') as f:
+#     lines = [line.strip() for line in f]
 
-freq = 0
+# freq = 0
 
-breaked = False
+# seen = [0]
 
-lines = [eval(i) for i in lines]
- 
-record = [0]
+# lines = [eval(i) for i in lines]
 
-while True:
-    for l in lines:
-        print(f"Current freq {freq}, change of {l}, ", end="")
-        freq += l
-        print(f"new freq {freq}, ", end="")
+
+# while True:
+#     for l in lines:
+#         freq += l
         
-        for q in record:
-            if freq == q:
-                print("----------------------------------------------------------, ", freq)
-                breaked = True
-                sys.exit()
+#         if freq in seen:
+#             print(freq)
+#             sys.exit()
+#         else:
+#             seen.append(freq)
         
-        if breaked:
-            break
-
-        record.append(freq)
-        print(f"records has length {len(record)}") 
-    
-    if breaked:
-        break
